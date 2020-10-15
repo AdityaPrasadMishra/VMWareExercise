@@ -1,10 +1,38 @@
 {
-  "name": "mock",
+  "name": "react",
   "version": "1.0.0",
-  "description": "",
-  "main": "mock.js",
+  "description": "React example starter project",
+  "keywords": [
+    "react",
+    "starter"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "namor": "2.0.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.3",
+    "react-table": "7.6.0",
+    "rxjs": "6.6.3",
+    "rxjs-compat": "6.6.3",
+    "styled-components": "5.2.0",
+    "npm": "^6.14.8",
+    "test": "^0.6.0",
+    "yarn": "^1.22.10",
+    "jest": "24.9.0"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3",
+    "babel": "^6.23.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-stage-1": "^6.24.1"
+  },
   "scripts": {
-    "test": "jest --runInBand --no-cache"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --runInBand --no-cache",
+    "test2": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "author": "",
   "license": "ISC",
@@ -18,13 +46,10 @@
       "./"
     ]
   },
-  "dependencies": {
-    "rxjs": "^5.5.2"
-  },
-  "devDependencies": {
-    "babel": "^6.23.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
-    "babel-preset-stage-1": "^6.24.1",
-    "jest": "^21.2.1"
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
